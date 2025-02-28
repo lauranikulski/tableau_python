@@ -4,11 +4,14 @@
 <workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
     <MarkAnimation />
     <ObjectModelEncapsulateLegacy />
     <ObjectModelExtractV2 />
     <ObjectModelTableType />
     <SchemaViewerObjectModel />
+    <SetMembershipControl />
     <SheetIdentifierTracking />
     <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
     <WindowsPersistSimpleIdentifiers />
@@ -22,7 +25,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='df2' name='textscan.09rsuyo1sp25fn16dl1et09thbb1'>
-            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/laura/OneDrive/Desktop/projects/tableau_python/df2.csv' dataRefreshTime='' directory='C:/Users/laura/OneDrive/Desktop/projects/tableau_python' filename='C:/Users/laura/AppData/Local/Temp/TableauTemp/0kb1aco0xp0l911gapoty1cjbzs3/df2.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/laura/OneDrive/Desktop/projects/tableau_python/df2.csv' dataRefreshTime='' directory='C:/Users/laura/OneDrive/Desktop/projects/tableau_python' filename='C:/Users/laura/AppData/Local/Temp/TableauTemp/1yd5rap03bzrwi1cztzno1v4tz2g/df2.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.09rsuyo1sp25fn16dl1et09thbb1' name='df2.csv' table='[df2#csv$]' type='table'>
@@ -277,8 +280,8 @@
       <column caption='Title Id' datatype='integer' name='[title_id]' role='dimension' type='ordinal' />
       <column caption='Views' datatype='integer' name='[views]' role='measure' type='quantitative' />
       <column caption='Weekdays' datatype='string' name='[weekdays]' role='dimension' type='nominal' />
-      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='false' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/laura/AppData/Local/Temp/TableauTemp/#TableauTemp_1fhjdd610kymq613e18y10wu3snj.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/26/2025 03:01:27 PM' username='tableau_internal_user'>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/laura/AppData/Local/Temp/TableauTemp/#TableauTemp_1f6wfzj1s5xvfr1byv5p90p33olo.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/28/2025 07:07:24 AM' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
             <metadata-record class='column'>
@@ -307,7 +310,7 @@
               <aggregation>Count</aggregation>
               <approx-count>810</approx-count>
               <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RGB' />
+              <collation flag='1' name='LEN_RGB_S2' />
               <object-id>[df2.csv_E531A36E7BDA4E82B3B4B3E0FE83ED09]</object-id>
             </metadata-record>
             <metadata-record class='column'>
@@ -322,7 +325,7 @@
               <aggregation>Count</aggregation>
               <approx-count>16</approx-count>
               <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RGB' />
+              <collation flag='1' name='LEN_RGB_S2' />
               <object-id>[df2.csv_E531A36E7BDA4E82B3B4B3E0FE83ED09]</object-id>
             </metadata-record>
             <metadata-record class='column'>
@@ -337,7 +340,7 @@
               <aggregation>Count</aggregation>
               <approx-count>720</approx-count>
               <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RGB' />
+              <collation flag='1' name='LEN_RGB_S2' />
               <object-id>[df2.csv_E531A36E7BDA4E82B3B4B3E0FE83ED09]</object-id>
             </metadata-record>
             <metadata-record class='column'>
@@ -352,7 +355,7 @@
               <aggregation>Count</aggregation>
               <approx-count>40</approx-count>
               <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RGB' />
+              <collation flag='1' name='LEN_RGB_S2' />
               <object-id>[df2.csv_E531A36E7BDA4E82B3B4B3E0FE83ED09]</object-id>
             </metadata-record>
             <metadata-record class='column'>
@@ -437,7 +440,7 @@
               <aggregation>Count</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RGB' />
+              <collation flag='1' name='LEN_RGB_S2' />
               <object-id>[df2.csv_E531A36E7BDA4E82B3B4B3E0FE83ED09]</object-id>
             </metadata-record>
             <metadata-record class='column'>
@@ -466,17 +469,39 @@
               <aggregation>Count</aggregation>
               <approx-count>809</approx-count>
               <contains-null>true</contains-null>
-              <collation flag='0' name='LEN_RGB' />
+              <collation flag='1' name='LEN_RGB_S2' />
               <object-id>[df2.csv_E531A36E7BDA4E82B3B4B3E0FE83ED09]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
       </extract>
-      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;South Korea&quot;' />
       </semantic-values>
       <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='title_id' />
+        <field-sort-custom-order field='title' />
+        <field-sort-custom-order field='genre' />
+        <field-sort-custom-order field='authors' />
+        <field-sort-custom-order field='weekdays' />
+        <field-sort-custom-order field='length' />
+        <field-sort-custom-order field='subscribers' />
+        <field-sort-custom-order field='rating' />
+        <field-sort-custom-order field='views' />
+        <field-sort-custom-order field='likes' />
+        <field-sort-custom-order field='status' />
+        <field-sort-custom-order field='daily_pass' />
+        <field-sort-custom-order field='synopsis' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field='Calculation_1531223925216075776' />
+        <field-sort-custom-order field='Calculation_1531223925216329729' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
       <object-graph>
         <objects>
           <object caption='df2.csv' id='df2.csv_E531A36E7BDA4E82B3B4B3E0FE83ED09'>
@@ -508,10 +533,34 @@
     </datasource>
   </datasources>
   <worksheets>
-    <worksheet name='Sheet 1'>
+    <worksheet name='Sheet 1 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[<What webtoon genre creates the most engagement?>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
-          <datasources />
+          <datasources>
+            <datasource caption='df2' name='federated.15jk28u00ltmvv16vxhww0vdxsj8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15jk28u00ltmvv16vxhww0vdxsj8'>
+            <column-instance column='[rating]' derivation='Avg' name='[avg:rating:qk]' pivot='key' type='quantitative' />
+            <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+            <column caption='Likes' datatype='integer' name='[likes]' role='measure' type='quantitative' />
+            <column-instance column='[genre]' derivation='None' name='[none:genre:nk]' pivot='key' type='nominal' />
+            <column caption='Rating' datatype='real' name='[rating]' role='measure' type='quantitative' />
+            <column caption='Subscribers' datatype='integer' name='[subscribers]' role='measure' type='quantitative' />
+            <column-instance column='[likes]' derivation='Sum' name='[sum:likes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[subscribers]' derivation='Sum' name='[sum:subscribers:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[views]' derivation='Sum' name='[sum:views:qk]' pivot='key' type='quantitative' />
+            <column caption='Views' datatype='integer' name='[views]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.15jk28u00ltmvv16vxhww0vdxsj8].[none:genre:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.15jk28u00ltmvv16vxhww0vdxsj8].[sum:subscribers:qk]' shelf='rows' />
+          </shelf-sorts>
           <aggregation value='true' />
         </view>
         <style />
@@ -522,15 +571,79 @@
             </view>
             <mark class='Automatic' />
           </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.15jk28u00ltmvv16vxhww0vdxsj8].[sum:subscribers:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#72b966' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.15jk28u00ltmvv16vxhww0vdxsj8].[avg:rating:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='size' value='1.2083977460861206' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.15jk28u00ltmvv16vxhww0vdxsj8].[sum:views:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.15jk28u00ltmvv16vxhww0vdxsj8].[sum:likes:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
         </panes>
-        <rows />
-        <cols />
+        <rows>[federated.15jk28u00ltmvv16vxhww0vdxsj8].[none:genre:nk]</rows>
+        <cols>([federated.15jk28u00ltmvv16vxhww0vdxsj8].[sum:subscribers:qk] + ([federated.15jk28u00ltmvv16vxhww0vdxsj8].[avg:rating:qk] + ([federated.15jk28u00ltmvv16vxhww0vdxsj8].[sum:views:qk] + [federated.15jk28u00ltmvv16vxhww0vdxsj8].[sum:likes:qk])))</cols>
       </table>
-      <simple-id uuid='{90B46563-6CCE-42CC-9926-0C3C1C175C31}' />
+      <simple-id uuid='{299C704D-6185-45C2-BF1C-E8FEA2AC907D}' />
     </worksheet>
   </worksheets>
+  <dashboards>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
+            <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='' id='1' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{5694375B-08FC-485E-86D9-595910702B94}' />
+    </dashboard>
+  </dashboards>
   <windows saved-dpi-scale-factor='1.5' source-height='44'>
-    <window class='worksheet' maximized='true' name='Sheet 1'>
+    <window class='worksheet' maximized='true' name='Sheet 1 (2)'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -551,7 +664,15 @@
           </strip>
         </edge>
       </cards>
-      <simple-id uuid='{FCA1334C-F6D7-44B2-915C-2FAD947C2069}' />
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{06EC77D6-1D52-42B3-A5DB-CC84E283836C}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{B87541F3-27D5-4B66-A036-2FF2FF23DBE9}' />
     </window>
   </windows>
 </workbook>
